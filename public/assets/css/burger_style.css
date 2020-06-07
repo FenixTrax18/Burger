@@ -1,20 +1,76 @@
-li {
-    padding: 5px;
-    margin: 5px;
-    background: #faebd7;
-  }
-  
-  .label {
-    font-weight: bold;
-  }
-  
-  .create-update-form {
-    padding: 5px;
-    margin: 5px;
-    background: aqua;
-  }
-  
-  .form-group {
-    margin-bottom: 5px;
-  }
-  
+body {
+  background-color: lightgoldenrodyellow;
+}
+
+h1 {
+  font-size: xx-large;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 15%;
+  width: 15%;
+}
+
+.addBurgerForm {
+  margin: auto;
+  margin-bottom: 20px;
+  width: 20%;
+  border: 3px solid green;
+  background: lightgreen;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: grey 3px 3px;
+}
+
+.create-form {
+  padding: 5px;
+  margin: 5px;
+}
+
+.lists {
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.ulLeft {
+  display: inline-block;
+  position: relative;
+  left: 0px;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 45%;
+  border: 3px solid goldenrod;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: grey 3px 3px;
+  background-color: rgb(245, 235, 50);
+
+}
+
+.ulRight {
+  float: right;
+  position: relative;
+  right: 0px;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 45%;
+  border: 3px solid goldenrod;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: grey 3px 3px;
+  background-color: rgb(245, 235, 50);
+
+}
+
+.delete-burger{
+  color: red;
+}
